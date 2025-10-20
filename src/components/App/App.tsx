@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import styles from "./App.module.css";
+import axios from "axios";
 import SearchBar from "../SearchBar/SearchBar";
 import { fetchMovies } from "../../services/movieService";
 import toast, { Toaster } from "react-hot-toast";
